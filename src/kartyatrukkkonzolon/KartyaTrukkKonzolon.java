@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class KartyaTrukkKonzolon {
     private Scanner sc = new Scanner(System.in);
 
-    public KartyaTrukkKonzolon() {
-        // Konstruktor
-    }
-
     public void indit() {
         Pakli pakli = new Pakli();
         for (int i = 0; i < 3; i++) {
