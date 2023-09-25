@@ -1,7 +1,8 @@
 package kartyatrukkkonzolon;
 
-public class Lap
-{
+
+public class Lap {
+
     private String leiras;
     
     public Lap(String leiras)
@@ -14,8 +15,10 @@ public class Lap
         return leiras;
     }
 
+
     @Override public String toString()
     {
         return leiras;
     }
 }
+
