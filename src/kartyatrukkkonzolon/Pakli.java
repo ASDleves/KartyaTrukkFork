@@ -58,6 +58,8 @@ public class Pakli {
    
 
     public void ezVolt() {
+
         System.out.println("A választott lap: " + pakli[11]);
+
     }
 }
