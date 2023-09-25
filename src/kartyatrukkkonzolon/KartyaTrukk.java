@@ -2,7 +2,7 @@ package kartyatrukkkonzolon;
 
 import java.util.Scanner;
 
-public class KartyaTrukkKonzolon {
+public class KartyaTrukk {
     private Scanner sc = new Scanner(System.in);
 
     public void indit() {
@@ -26,8 +26,4 @@ public class KartyaTrukkKonzolon {
         return oszlop;
     }
 
-    public static void main(String[] args) {
-        KartyaTrukkKonzolon trukk = new KartyaTrukkKonzolon();
-        trukk.indit();
-    }
 }

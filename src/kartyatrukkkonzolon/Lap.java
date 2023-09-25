@@ -1,14 +1,21 @@
-
 package kartyatrukkkonzolon;
 
-public class Lap {
+public class Lap
+{
     private String leiras;
-
-    public Lap(String leiras) {
+    
+    public Lap(String leiras)
+    {
         this.leiras = leiras;
     }
+    
+    public String getLeiras()
+    {
+        return leiras;
+    }
 
-    public String getLeiras() {
+    @Override public String toString()
+    {
         return leiras;
     }
 }
