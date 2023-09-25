@@ -20,7 +20,6 @@ public class Lap {
     {
         return leiras; 
         
-        
     }
 }
 
