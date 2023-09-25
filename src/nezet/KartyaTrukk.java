@@ -4,14 +4,12 @@ import modell.Pakli;
 import java.util.Scanner;
 import modell.Lap;
 
-public class KartyaTrukk
-{
+public class KartyaTrukk{
     private static final Scanner sc = new Scanner(System.in);
     
     private final Pakli pakli;
     
-    public KartyaTrukk()
-    {
+    public KartyaTrukk(){
         pakli = new Pakli();
         for (int i = 0; i < 3; i++)
         {
@@ -22,8 +20,7 @@ public class KartyaTrukk
         ezVolt();
     }
     
-    private void kirak()
-    {
+    private void kirak(){
         Lap[] pakliTomb = this.pakli.getPakli();
         for (int i = 1; i < pakliTomb.length; i++)
         {
@@ -35,13 +32,9 @@ public class KartyaTrukk
         }
     }
     
-    private void ezVolt()
-    {
-        System.out.println("A választott lap: " + pakli.getPakli()[11]);
-    }
+
     
-    private int melyik()
-    {
+    private int melyik(){
         boolean jo;
         int oszlop;
         do
@@ -52,5 +45,8 @@ public class KartyaTrukk
         }
         while (!jo);
         return oszlop;
+    }
+        private void ezVolt(){
+        System.out.println("A választott lap: " + pakli.getPakli()[11]);
     }
 }
