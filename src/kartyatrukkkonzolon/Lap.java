@@ -1,7 +1,7 @@
-
 package kartyatrukkkonzolon;
 
 public class Lap {
+
     private String leiras;
 
     public Lap(String leiras) {
@@ -11,4 +11,10 @@ public class Lap {
     public String getLeiras() {
         return leiras;
     }
+
+    @Override
+    public String toString() {
+        return leiras;
+    }
+
 }
